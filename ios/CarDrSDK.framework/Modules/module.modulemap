@@ -1,0 +1,11 @@
+framework module CarDrSDK {
+  umbrella header "CarDrSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module CarDrSDK.Swift {
+  header "CarDrSDK-Swift.h"
+  requires objc
+}
